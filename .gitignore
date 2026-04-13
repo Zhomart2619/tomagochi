@@ -1,0 +1,84 @@
+!/memory/agents/README.md
+!/memory/sessions/README.md
+!bin/claude-flow
+!v3/@claude-flow/
+# Binaries
+*.exe
+*.so
+# Build outputs
+dist/
+dist-cjs/
+build/
+out/
+# Claude-Flow specific
+claude-flow.config.json
+.swarm/
+.hive-mind/
+.claude-flow/
+# Dependencies
+node_modules/
+# Development
+coverage/
+.nyc_output/
+# Environment
+.env
+.env.local
+.env.*.local
+.claude/settings.local.json
+.mcp.json
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# OS
+.DS_Store
+Thumbs.db
+# SQLite Database Files
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+# Temp files
+*.tmp
+*.temp
+tmp/
+*.tsbuildinfo
+# Test artifacts
+test-output/
+test-reports/
+tests/logs/
+tests/results/
+# Memory runtime data
+/memory/
+/memory/agents/*
+/memory/sessions/*
+/coordination/
+/memory/claude-flow-data.json
+/coordination/memory_bank/*
+/coordination/subtasks/*
+/coordination/orchestration/*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.Python
+# IDE
+.vscode/
+.idea/
+# MCP/Swarm
+swarm-debug.log
+swarm-runs
+# Codex
+.codex/
+# Claude Flow runtime data
+.claude-flow/data/
+.claude-flow/logs/
+hive-mind-prompt-*.txt
+claude-flow
